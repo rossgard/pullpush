@@ -1,0 +1,17 @@
+<h1>Poll and push</h1>
+
+<button ng-click="polling()">Polling</button>
+<button ng-click="longPolling()" disabled="true">Long polling</button>
+<button ng-click="sse()">SSE</button>
+
+<button ng-click="connectWebSocket()">Create WebSocket connection</button>
+<button ng-click="sendWebSocket()" disabled="true">Send WebSocket request</button>
+
+<p>Polling: {{polling}}</p>
+<p>Long polling: {{longPolling}}</p>
+<p>SSE: {{sse}}</p>
+<!--<p>Comet: {{comet}}</p>-->
+<p>WebSockets: {{websocket}}</p>
+
+
+
